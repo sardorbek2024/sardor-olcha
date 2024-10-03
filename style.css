@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(196, 39, 39);
+    padding: 10px 0;
+}
+
+nav .box2,
+nav .box1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .box1 a {
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn_white {
+    background-color: white;
+    color: rgb(193, 39, 39) !important;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.xarita {
+    border: none !important;
+}
+
+nav .box2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav .box2 p {
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header .box1, .header .box2, .header .box3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+.header input {
+    padding: 15px 120px;
+    border-radius: 10px;
+}
+
+.header .box1 a{
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none ;
+    padding: 10px 50px;
+}
+
+.rasm {
+    margin-right: 40px;
+}
+
+.info1 {
+    display: flex;
+    gap: 20px;
+}
+
+.box77 {
+    border: 3px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.box76 img {
+    width: 1100px;
+}
+
+.box77 button {
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+.info2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info3 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info3 img {
+    border-radius: 8px;
+}
+
+.info4 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info4 div {
+    border: 1px solid black;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: rgba(63, 63, 174, 0.153);
+}
+.info5 {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: red;
+    text-align: center;
+    justify-content: center;
+}
+
+.info5 div {
+    text-align: center;
+    border: 1px solid white;
+    padding: 30px 390px;
+    width: 500px;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+.info5 div button {
+    padding: 20px 30px;
+    color: white;
+    border: 1px solid white;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: rgb(245, 7, 7);
+}
+.info5 div:hover {
+    padding: 40px 420px;
+    transition: 1s;
+}
+
+.info6 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.info6 .box111 img {
+    border-radius: 20px;
+}
+.info6 .fax1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.info6 .fax1 .card div {
+    border: 1px solid black;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: aqua;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.info6 .fax1 .card div button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: yellow;
+}
